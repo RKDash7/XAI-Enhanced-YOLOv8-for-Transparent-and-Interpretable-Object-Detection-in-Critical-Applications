@@ -1,1 +1,12 @@
+#  Core ML packages
+pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu121
+
+#  YOLOv8 + utilities
+pip install ultralytics numpy opencv-python pillow matplotlib tqdm
+
+#  Explainability and visualization
+pip install git+https://github.com/jacobgil/pytorch-grad-cam.git
+
+#  Optional (but recommended for robustness)
+pip install seaborn pandas scikit-learn onnx onnxruntime
 
